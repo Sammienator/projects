@@ -114,12 +114,29 @@ body{
     opacity: 0.9;
   }
   
-  .body2 {
-    min-height: 400px;
+  .bodys {
+    min-height: 100vw;
     margin-top: 3%;
     background-color: #efefef;
   
   }
+  .bodys h1{
+    text-align: center;
+  }
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .item {
+    flex: 1 0 15em;
+    margin: 1em;
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  
   
   
   

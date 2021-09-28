@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
+
 body{
   background-color: #efefef;
 }
@@ -5,7 +7,8 @@ body{
     min-height: 10px;
     /* background-color: orange; */
     background-color: #ffcfdf;
-background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
+    font-family: 'Condiment', cursive;
 
     
     
@@ -153,6 +156,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
   text-decoration: underline;
   font-size: bold;
   text-transform: capitalize;
+  font-family: 'Condiment', cursive;
 }
 .section p{
   max-height: 100%;
@@ -174,7 +178,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 /* FOOTER */
 .footer {
   width: 100%;
- 
+  font-family: 'Condiment', cursive;
   display: block;
 }
 

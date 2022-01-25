@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Condiment&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&display=swap');
 body{
   background-color: #efefef;
 }
@@ -8,7 +9,7 @@ body{
     /* background-color: orange; */
     background-color: #ffcfdf;
     background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
-    font-family: 'Condiment', cursive;
+    font-family: 'Six Caps', sans-serif;
 
     
     
@@ -40,7 +41,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
   text-decoration: none;
   font-size: 14px;
   font-weight: bolder;
-  text-transform: uppercase;
+  text-transform: capitalize;
   
 }
 
@@ -93,10 +94,11 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
     min-height: 400px;
     margin-top: 3%;
     background-color: #efefef;
+    font-family: 'Josefin Slab', serif;
 }
 #hero-image {
   height: 100vh;
-  background: #000 url("images/hero.jpg") no-repeat fixed bottom;
+  background: #000 url("images/hero1.jpg") no-repeat fixed bottom;
   background-size: cover;
   position: relative;
 }
@@ -156,7 +158,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
   text-decoration: underline;
   font-size: bold;
   text-transform: capitalize;
-  font-family: 'Condiment', cursive;
+  font-family: 'Josefin Slab', serif;
 }
 .section p{
   max-height: 100%;
@@ -178,7 +180,7 @@ background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);
 /* FOOTER */
 .footer {
   width: 100%;
-  font-family: 'Condiment', cursive;
+  font-family: 'Josefin Slab', serif;
   display: block;
 }
 
